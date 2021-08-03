@@ -53,7 +53,7 @@ import-maps 还提供了诸如 scopes 的功能，这里不过多介绍，详细
 ### 2、缺点
 
 import-maps 是个很好的提案，大大方便了在浏览器端引入 esm 规范的模块。但是作为一个较新的提案，浏览器兼容性很差，详细见[import-maps 兼容性](https://caniuse.com/?search=import-maps)。ie 和 firefox 不支持，chrome 的较新的版本才支持。
-由于兼容性的一些问题，import-maps 还不是一种可以直接拿起来就用的方案。此时 systems 作为其 polyfill，就是我们最好的替代选择。
+由于兼容性的一些问题，import-maps 还不是一种可以直接拿起来就用的方案。此时 systemjs 就可以作为其 polyfill，成为我们最好的替代选择。
 
 ## 五、总结
 

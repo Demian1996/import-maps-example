@@ -4,6 +4,6 @@
 
 ## 目录
 
-[esm 简介](./learn-browser-esm/readme.md)
-[import-maps 简介](./learn-import-maps/readme.md)
-[systems 简介](./learn-systemjs/readme.md)
+- [esm 简介](./examples/learn-browser-esm/readme.md)
+- [import-maps 简介](./examples/learn-import-maps/readme.md)
+- [systems 简介](./examples/learn-systemjs/readme.md)

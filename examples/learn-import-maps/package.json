@@ -1,10 +1,10 @@
 {
-  "name": "learn-browser-esm",
+  "name": "learn-import-maps",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve -p 3000"
+    "start": "serve -p 3001"
   },
   "keywords": [],
   "author": "",

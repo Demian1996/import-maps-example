@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- esm 引入lodash -->
+    <!-- <script type="module">
+      import { map } from 'https://cdn.jsdelivr.net/npm/lodash-es@4.17.21/lodash.min.js';
+
+      const arr = [{ a: '1' }, { a: '2' }];
+      console.log(map(arr, 'a'));
+    </script> -->
+
+    <!-- 使用import-maps的基础示例 -->
+    <!-- <script type="importmap">
+      {
+        "imports": {
+          "lodash": "https://cdn.jsdelivr.net/npm/lodash-es@4.17.21/lodash.min.js"
+        }
+      }
+    </script>
+    <script type="module">
+      import { map } from 'lodash';
+
+      const arr = [{ a: '1' }, { a: '2' }];
+      console.log(map(arr, 'a'));
+    </script> -->
+  </body>
+</html>

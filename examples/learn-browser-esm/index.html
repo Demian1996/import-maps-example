@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>hello world</div>
+    <!-- 方式一：通过新建main.js调用count模块，然后引入main.js -->
+    <!-- <script type="module" src="main.js"></script> -->
+    <!-- 方式二：直接调用count模块 -->
+    <script type="module">
+      import { increase, decrease, outputCount } from 'http://localhost:3000/count.js';
+      // import { increase, decrease, outputCount } from './count.js';
+
+      increase();
+      decrease();
+      increase();
+      outputCount();
+    </script>
+  </body>
+</html>

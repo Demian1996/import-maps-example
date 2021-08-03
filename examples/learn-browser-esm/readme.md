@@ -8,6 +8,7 @@
 
 ```shell
 npm start
+open http://localhost:3000
 ```
 
 ## 三、详细说明
